@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO plane js</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="inputArea">
+      <input id="addText" type="text" placeholder="TODOを入力" />
+      <button id="addButton">追加</button>
+    </div>
+    <div class="incompleteArea">
+      <p class="title">未完了のTODO</p>
+      <ul id="incompleteList">
+        <li class="listRow">
+          <p>TODOです</p>
+          <button class="actionButton">完了</button>
+          <button class="actionButton">削除</button>
+        </li>
+        <li class="listRow">
+          <p>TODOです</p>
+          <button class="actionButton">完了</button>
+          <button class="actionButton">削除</button>
+        </li>
+      </ul>
+    </div>
+    <div class="completeArea">
+      <p class="title">完了したTODO</p>
+      <ul id="completeList">
+        <li class="listRow">
+          <p>TODOでした</p>
+          <button class="actionButton">戻す</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
